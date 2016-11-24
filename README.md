@@ -7,6 +7,7 @@
   1. [Version Control](#version-control)
   1. [Performance Goals](#performance-goals)
   1. [Supported Browsers, OS and Devices](#supported-targets)
+  1. [Release Process](#release-process)
 
 ## Coding Standards
 
@@ -547,3 +548,50 @@ Android N is just around the corner too.</td>
 </table>
 
 # };
+
+## Release process
+
+We have a way to go to standardise a release process across all projects. The projects worked on cover inherited, legacy builds and newly built. It is the hope that a minimum set of release processes is inherited by all projects with new builds utilising the best the maximum.
+
+
+### Release feature to staging:
+* Build feature
+* Test feature on development environment
+    * Run lint tests
+    * Run unit tests (if any)
+* Commit feature
+* Merge feature to aggregate development branch
+* Test feature on aggregate development branch
+    * Run lint tests
+    * Run unit tests (if any)
+* Run integration tests (if any)
+* Commit merged feature
+* Merge aggregate development branch to deployment branch
+* Commit deployment branch
+* Push feature, merged feature and deployment branches
+* Trigger continuous integration build
+    * Build test environment
+    * Run lint tests
+    * Run unit tests (if any)
+    * Run integration tests (if any)
+    * Run behaviour tests (if any)
+    * Deploy to staging environment
+After the deployment, email project members that the deployment is complete and for the test team to conduct * feature and regression testing
+* Test feature across supported browsers across devices
+* Regression test business critical features across supported browsers across devices
+
+
+### Release to production:
+* Start a git flow release from the develop branch
+* Tag the release
+* Merge the aggregate development branch into the release branch
+* Update the version and change log information
+* Finish the release and delete the release branch
+* Push the develop and master branches
+* Create a release document with the commit hash and tag with change log information and save in Google Drive
+* Before the release deployment, email all stakeholders when the deployment will start with the attached release document
+* Start the release deployment script(s)
+    * Create an instrumentation event
+    * Run capistrano deploy task for production
+* After the release is deployed, email all stakeholders that the deployment is complete and for the test team to conduct regression testing
+* Regression test business critical features across supported browsers across devices
