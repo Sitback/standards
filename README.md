@@ -549,7 +549,9 @@ Android N is just around the corner too.</td>
 
 ## Release process
 
-We have a way to go to standardise a release process across all projects. The projects worked on cover inherited, legacy builds and newly built. It is the hope that a minimum set of release processes is inherited by all projects with new builds utilising the best the maximum.
+The following process hopes to set a minimum set of release process to be inherited across all projects. It describes the process carried out for the staging and production environments, which should exists across most projects.
+
+This process can be adapted for additional environments as required.
 
 
 ### Release feature to staging:
