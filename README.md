@@ -547,8 +547,6 @@ Android N is just around the corner too.</td>
   </tr>
 </table>
 
-# };
-
 ## Release process
 
 We have a way to go to standardise a release process across all projects. The projects worked on cover inherited, legacy builds and newly built. It is the hope that a minimum set of release processes is inherited by all projects with new builds utilising the best the maximum.
@@ -595,3 +593,5 @@ After the deployment, email project members that the deployment is complete and 
     * Run capistrano deploy task for production
 * After the release is deployed, email all stakeholders that the deployment is complete and for the test team to conduct regression testing
 * Regression test business critical features across supported browsers across devices
+
+# };
