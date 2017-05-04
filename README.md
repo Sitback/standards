@@ -596,4 +596,3 @@ After the deployment, email project members that the deployment is complete and 
 * After the release is deployed, email all stakeholders that the deployment is complete and for the test team to conduct regression testing
 * Regression test business critical features across supported browsers across devices
 
-# };
