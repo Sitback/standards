@@ -9,7 +9,7 @@
   1. [Supported Browsers, OS and Devices](#supported-targets)
   1. [Release Process](#release-process)
 
-## Coding Standards
+## 1. Coding Standards
 
   > Coding standards describe how code must be written. All code should be
   > consistent and follow best practices so that it is easier to review 
@@ -64,7 +64,7 @@
   
     ```eslint $file```
 
-## Project Structure
+## 2. Project Structure
 
   > The boilerplate project structure attempts to simplify and standardise 
   > projects with the most common directory structures and files already 
@@ -90,7 +90,7 @@
   | phpcs.xml               | Code sniffer configuration. |
   | README.md               | The project summary and changelog. |
   
-## Version Control
+## 3. Version Control
   
   > GIT is the preferred source control repository. 
   > The methodology used is a modified gitflow method of using master, 
@@ -242,7 +242,7 @@
     + Merge the develop branch into the master branch and deploy to production/UAT.
     + Delete feature and release branches involved in this release.
 
-## Performance Goals
+## 4. Performance Goals
 
   > A fast site is a good user experience (UX), and a satisfying UX 
   > leads to higher conversions. Slower page response time results in 
@@ -404,10 +404,10 @@
   Inline scripts are parser blocking, but for external scripts we can 
   add the “async” keyword to unblock the parser.
 
-<a name="supported-targets">
-## Sitback supported browsers, OS and devices
+<a name="supported-targets"></a>
+## 5. Sitback supported browsers, OS and devices
 
-  The criteria we use is 1% or more market share and the current version - 2 releases.
+The criteria we use is 1% or more market share and the current version - 2 releases.
 
 <a name="supported-targets--supported-browsers"></a><a name="5.1"></a>
 [5.1](#supported-targets--supported-browsers) **Supported Browsers**
@@ -555,7 +555,7 @@ https://developer.android.com/about/dashboards/index.html</td>
   </tr>
 </table>
 
-## Release process
+## 6. Release process
 
 The following process hopes to set a minimum set of release process to be inherited across all projects. It describes the process carried out for the staging and production environments, which should exists across most projects.
 
@@ -603,4 +603,3 @@ After the deployment, email project members that the deployment is complete and 
     * Run capistrano deploy task for production
 * After the release is deployed, email all stakeholders that the deployment is complete and for the test team to conduct regression testing
 * Regression test business critical features across supported browsers across devices
-
