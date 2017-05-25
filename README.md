@@ -421,37 +421,44 @@
   </tr>
   <tr>
     <td>Chrome</td>
-    <td>48+</td>
+    <td>56+</td>
     <td>Windows 7 SP1+
 OSX
 Android KitKat+
 iOS 7+</td>
-    <td>Chrome 48 has dropped to 1% as at April 2016, in favour of Chrome 49
-Chrome 50 is current (Early May, 2016)</td>
+    <td>
+    Chrome 56 has dropped to less than 1% as at May 2017 <br/>
+Chrome 58 is current (Late May 2017)
+</td>
   </tr>
   <tr>
     <td>Firefox</td>
-    <td>43+</td>
+    <td>52+</td>
     <td>Windows 7 SP1+
 OSX
 Android KitKat+
 iOS 7+</td>
-    <td>Firefox 43 has dropped to 1% as at Mid February 2016
-Firefox 46 is current (Early May, 2016)</td>
+    <td>Firefox 50 has dropped to less than 1% as at March 2017<br/>
+Firefox 53 is current (Late May 2017))</td>
   </tr>
   <tr>
     <td>Safari</td>
-    <td>9+</td>
+    <td>10+</td>
     <td>OSX
 iOS 7+</td>
-    <td>No Windows support for Safari.</td>
+    <td>No Windows support for Safari. <br/> Safari 9.1 has dropped to  less than 1% as at April 2017</td>
   </tr>
   <tr>
     <td>IE</td>
-    <td>10+</td>
+    <td>11+</td>
     <td>Windows 7 SP1+</td>
-    <td>Includes Edge 11-13
-IE10 is < 1% since February 2016</td>
+    <td>IE11 is the only version to still be receiving even security updates</td>
+  </tr>
+  <tr>
+    <td>Microsoft Edge</td>
+    <td>14+</td>
+    <td>Windows 10</td>
+    <td>Version 14 is the only version greater than 1% usage in Australia</td>
   </tr>
 </table>
 
@@ -471,21 +478,22 @@ IE10 is < 1% since February 2016</td>
   </tr>
   <tr>
     <td>OSX</td>
-    <td>10.9+ (Mavericks, Yosemite, El Capitan)</td>
-    <td>This is the earliest version that has support for our supported Safari (9+).
-All prior versions of the OS stop at Safari 6.</td>
+    <td>10.10+ (Yosemite, El Capitan, Sierra)</td>
+    <td>This is the earliest version that has support for our supported Safari (9+).<br/>
+All prior versions of the OS stop at Safari 9.</td>
   </tr>
   <tr>
     <td>iOS</td>
-    <td>7+</td>
-    <td>This includes > 95% of IOS devices active in April 2016</td>
+    <td>9+</td>
+    <td>This includes 95% of IOS devices active in May 2017<br/>
+https://developer.apple.com/support/app-store/</td>
   </tr>
   <tr>
     <td>Android</td>
     <td>KitKat+</td>
-    <td>Accounts for 75% of Android users, but is four versions old.
-So a balance needed to be struck.
-Android N is just around the corner too.</td>
+    <td>Accounts for 18% of Android users, but is now 7 versions old.<br/>
+Android N is available, but currently only 7.1% of devices use it.<br/>
+https://developer.android.com/about/dashboards/index.html</td>
   </tr>
 </table>
 
