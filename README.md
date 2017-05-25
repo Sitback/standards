@@ -407,7 +407,7 @@
 <a name="supported-targets"></a>
 ## 5. Sitback supported browsers, OS and devices
 
-The criteria we use is 1% or more market share and the current version - 2 releases.
+  > The criteria we use is 1% or more market share and the current version - 2 releases.
 
 <a name="supported-targets--supported-browsers"></a><a name="5.1"></a>
 [5.1](#supported-targets--supported-browsers) **Supported Browsers**
