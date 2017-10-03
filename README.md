@@ -413,88 +413,155 @@
 [5.1](#supported-targets--supported-browsers) **Supported Browsers**
 
 <table>
-  <tr>
-    <td>Browser</td>
-    <td>Versions</td>
-    <td>OS</td>
-    <td>Comment</td>
-  </tr>
-  <tr>
-    <td>Chrome</td>
-    <td>56+</td>
-    <td>Windows 7 SP1+
-OSX
-Android KitKat+
-iOS 7+</td>
-    <td>
-    Chrome 56 has dropped to less than 1% as at May 2017 <br/>
-Chrome 58 is current (Late May 2017)
-</td>
-  </tr>
-  <tr>
-    <td>Firefox</td>
-    <td>52+</td>
-    <td>Windows 7 SP1+
-OSX
-Android KitKat+
-iOS 7+</td>
-    <td>Firefox 50 has dropped to less than 1% as at March 2017<br/>
-Firefox 53 is current (Late May 2017))</td>
-  </tr>
-  <tr>
-    <td>Safari</td>
-    <td>10+</td>
-    <td>OSX
-iOS 7+</td>
-    <td>No Windows support for Safari. <br/> Safari 9.1 has dropped to  less than 1% as at April 2017</td>
-  </tr>
-  <tr>
-    <td>IE</td>
-    <td>11+</td>
-    <td>Windows 7 SP1+</td>
-    <td>IE11 is the only version to still be receiving even security updates</td>
-  </tr>
-  <tr>
-    <td>Microsoft Edge</td>
-    <td>14+</td>
-    <td>Windows 10</td>
-    <td>Version 14 is the only version greater than 1% usage in Australia</td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Browser</th>
+      <th>Versions</th>
+      <th>OS</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chrome</td>
+      <td>59+</td>
+      <td>
+        <ul>
+          <li>Windows 7 SP1+</li>
+          <li>OSX</li>
+          <li>Android KitKat+</li>
+          <li>iOS 10+</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Chrome 59 has dropped to &lt; 1% as at August 2017</li>
+          <li>Chrome 61 is current (Early October 2017)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Firefox</td>
+      <td>55+</td>
+      <td>
+        <ul>
+          <li>Windows 7 SP1+</li>
+          <li>OSX</li>
+          <li>Android KitKat+</li>
+          <li>iOS 10+</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Firefox 52 has dropped to &lt; 1% as at March 2017</li>
+          <li>Firefox 56 is current (Early October 2017)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Safari</td>
+      <td>10+</td>
+      <td>
+        <ul>
+          <li>OSX</li>
+          <li>iOS 10+</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>No Windows support for Safari.</li>
+          <li>Safari 10.0 has dropped to &nbsp;&lt; 1% as at August 2017</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>IE</td>
+      <td>11+</td>
+      <td>
+        <ul>
+          <li>Windows 7 SP1+</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>IE11 is the only version to still be receiving even security updates</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Microsoft Edge</td>
+      <td>14+</td>
+      <td>
+        <ul>
+          <li>Windows 10</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Version 15 is the only version &gt; 1% usage in Australia</li>
+          <li>Yes, technically we are supporting browsers for which their entire&nbsp;ecosystem is less than 2% combined.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 <a name="supported-targets--supported-operating-systems"></a><a name="5.2"></a>
 [5.2](#supported-targets--supported-operating-systems) **Supported Operating Systems**
 
 <table>
-  <tr>
-    <td>OS</td>
-    <td>Versions</td>
-    <td>Comment</td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>7 SP1+</td>
-    <td>Extended Support for Windows7 SP1 ends Jan 14, 2020.</td>
-  </tr>
-  <tr>
-    <td>OSX</td>
-    <td>10.10+ (Yosemite, El Capitan, Sierra)</td>
-    <td>This is the earliest version that has support for our supported Safari (9+).<br/>
-All prior versions of the OS stop at Safari 9.</td>
-  </tr>
-  <tr>
-    <td>iOS</td>
-    <td>9+</td>
-    <td>This includes 95% of IOS devices active in May 2017<br/>
-https://developer.apple.com/support/app-store/</td>
-  </tr>
-  <tr>
-    <td>Android</td>
-    <td>KitKat+</td>
-    <td>Accounts for 18% of Android users, but is now 7 versions old.<br/>
-Android N is available, but currently only 7.1% of devices use it.<br/>
-https://developer.android.com/about/dashboards/index.html</td>
-  </tr>
+  <thead>
+    <tr>
+      <th>OS</th>
+      <th>Versions</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Windows</td>
+      <td>7 SP1+</td>
+      <td>
+        <ul>
+          <li>Extended Support for Windows7 SP1 ends Jan 14, 2020.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>OSX</td>
+      <td>10.10+ (El Capitan, Sierra, High Sierra)</td>
+      <td>
+        <ul>
+          <li>This is the earliest version that has support for our supported Safari (9+).</li>
+          <li>All prior versions of the OS stop at Safari 9.</li>
+          <li>Yosemite support ended via Apple in September 2017.</li>
+          <li>El Capitan support until end 2018</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>iOS</td>
+      <td>10+</td>
+      <td>
+        <ul>
+          <li>This includes 89% of IOS devices active in October 2017</li>
+          <li>https://developer.apple.com/support/app-store/</li>
+          <li>IOS9 and IOS10 are currently 3rd party application support only.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Android</td>
+      <td>KitKat+</td>
+      <td>
+        <ul>
+          <li>KitKat accounts for 14.5% of Android users but is now 7 versions old.</li>
+          <li>Android 0 is available, but currently, only 0.2% of devices use it.</li>
+          <li>https://developer.android.com/about/dashboards/index.html</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 <a name="supported-targets--supported-devices"></a><a name="5.3"></a>
